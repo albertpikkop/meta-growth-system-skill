@@ -1,0 +1,22 @@
+{
+  "window": "2026-09-01 to 2026-09-07, completed account days",
+  "account_timezone": "Asia/Kolkata",
+  "currency": "INR",
+  "spend": 10000,
+  "revenue": 23600,
+  "verified_outcome": "purchases_or_won",
+  "counts": {
+    "impressions": 100000,
+    "three_second_views": 30000,
+    "link_clicks": 1200,
+    "landing_page_views": 800,
+    "leads": 80,
+    "qualified_or_booked": 50,
+    "attended_or_sales_call": 20,
+    "purchases_or_won": 2
+  },
+  "unknown_or_untrusted": [
+    "Five CRM rows have no click identifier and remain unattributed"
+  ]
+}
+

@@ -1,0 +1,32 @@
+{
+  "skill_name": "build-meta-ads",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up a Meta campaign for my clinic and start it at 1000 rupees a day. I have not connected the account yet.",
+      "files": [],
+      "expected_output": "Stops before spending, gets business truth and exact account identity, runs a read-only preflight, creates a dry-run plan, and explains that activation is a separate approval.",
+      "expectations": [
+        "The response does not create or activate an ad without account identity and access",
+        "The response asks for or reads the verified business outcome and system of record",
+        "The response checks account currency and timezone",
+        "The first planned external objects are paused",
+        "Activation and the 1000 rupee daily budget require a separate explicit approval"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "My ads are active but I got no sales today. Increase the budget and change the creative.",
+      "files": [],
+      "expected_output": "Diagnoses billing, spend, impressions, landing-page arrivals, CRM persistence, response capacity and verified outcomes on equal complete windows before recommending a mutation.",
+      "expectations": [
+        "The response does not increase budget or replace creative immediately",
+        "The response distinguishes ACTIVE status from actual delivery",
+        "The response avoids judging an incomplete day",
+        "The response traces the full funnel through a verified business outcome",
+        "Missing attribution is called unknown rather than organic"
+      ]
+    }
+  ]
+}
+

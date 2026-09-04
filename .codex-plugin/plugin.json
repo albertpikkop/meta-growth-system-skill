@@ -1,0 +1,35 @@
+{
+  "name": "meta-growth-system",
+  "version": "0.1.0",
+  "description": "Build and verify a measurable Meta Ads and WhatsApp Cloud API growth system from BUSINESS-TRUTH.md, with read-only discovery, paused staging and approval-gated external actions.",
+  "author": {
+    "name": "Ashish Punj",
+    "url": "https://ashishpunj.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "meta-ads",
+    "whatsapp-cloud-api",
+    "marketing-api",
+    "conversion-tracking",
+    "business-truth"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Meta Growth System",
+    "shortDescription": "Build Meta Ads and WhatsApp safely",
+    "longDescription": "Turn a business truth into a measurable Meta Ads and WhatsApp Cloud API system. Audit first, stage campaigns paused, test with an owned recipient, and verify outcomes before scaling.",
+    "developerName": "Ashish Punj",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Audit my Meta Ads and WhatsApp setup.",
+      "Plan a paused Meta campaign from my business truth.",
+      "Find the largest leak in my Meta funnel."
+    ],
+    "brandColor": "#F28C28"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "operation_id": "replace-with-a-unique-test-id",
+  "phone_number_id": "123456789012345",
+  "recipient": "+919999999999",
+  "recipient_is_owned_test_number": false,
+  "template": {
+    "name": "hello_world",
+    "language": "en_US",
+    "components": []
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Meta Ads"
+  short_description: "Audit and stage Meta ads safely"
+  default_prompt: "Use $build-meta-ads to audit my Meta setup and stage a paused campaign."

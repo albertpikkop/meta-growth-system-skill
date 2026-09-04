@@ -1,0 +1,20 @@
+{
+  "name": "meta-growth-system",
+  "version": "0.1.0",
+  "description": "Turn BUSINESS-TRUTH.md into a measurable Meta Ads and WhatsApp Cloud API system. Read-only first, paused ads first, test-recipient first, and approval before spend or real customer messages.",
+  "author": {
+    "name": "Ashish Punj",
+    "url": "https://ashishpunj.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "meta-ads",
+    "whatsapp-cloud-api",
+    "marketing-api",
+    "conversion-tracking",
+    "business-truth",
+    "codex",
+    "claude-code"
+  ]
+}
+

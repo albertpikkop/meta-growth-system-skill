@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connect Meta WhatsApp"
+  short_description: "Connect and verify WhatsApp Cloud API"
+  default_prompt: "Use $connect-meta-whatsapp to connect and verify WhatsApp Cloud API safely."

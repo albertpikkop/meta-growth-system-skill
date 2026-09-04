@@ -1,0 +1,36 @@
+{
+  "operation_id": "replace-with-a-unique-business-use-case-id",
+  "ad_account_id": "act_123456789012345",
+  "campaign": {
+    "name": "Business | Offer | Outcome | YYYY-MM",
+    "objective": "OUTCOME_LEADS",
+    "special_ad_categories": []
+  },
+  "adset": {
+    "name": "Audience | Geography | Optimization",
+    "daily_budget_minor": 1000,
+    "billing_event": "IMPRESSIONS",
+    "optimization_goal": "OFFSITE_CONVERSIONS",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "targeting": {
+      "geo_locations": {
+        "countries": ["IN"]
+      },
+      "age_min": 25,
+      "age_max": 55
+    },
+    "promoted_object": {
+      "pixel_id": "123456789012345",
+      "custom_event_type": "LEAD"
+    }
+  },
+  "ad": {
+    "name": "Creative | Version 1",
+    "creative_id": ""
+  },
+  "business_outcome": {
+    "name": "verified_sale",
+    "system_of_record": "CRM",
+    "expected_delay_days": 7
+  }
+}

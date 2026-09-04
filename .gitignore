@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+META-TRUTH.md
+META-*.json
+!skills/**/assets/*.json
+!skills/**/evals/*.json
+
