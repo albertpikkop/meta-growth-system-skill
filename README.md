@@ -2,6 +2,8 @@
 
 Build a measurable Meta Ads and WhatsApp Cloud API growth system from a business truth file.
 
+Repository: <https://github.com/albertpikkop/meta-growth-system-skill>
+
 This package contains three Codex and Claude-compatible skills:
 
 - `meta-growth-system`: routes an end-to-end request and keeps one shared plan.
@@ -22,4 +24,3 @@ Read [SETUP.md](SETUP.md) before the first live API check.
 ## Honest limit
 
 The skill can complete most repeatable technical work. The account owner must still sign in, grant permissions, complete any verification Meta requires, connect payment details, and approve spend and customer communication.
-
