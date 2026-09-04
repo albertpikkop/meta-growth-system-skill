@@ -15,6 +15,7 @@ Give GrowTricity students a safe, reusable way to complete most repeatable Meta 
 - Webhook signature verification and full-funnel reporting are included.
 - All skill and plugin validators pass; helper scripts compile and dry-run tests pass.
 - Installed locally as `meta-growth-system@personal` for testing in a new Codex task.
+- Published publicly at `https://github.com/albertpikkop/meta-growth-system-skill` from the `main` branch.
 
 ## Deliberately excluded from Version 1
 
@@ -30,4 +31,3 @@ Give GrowTricity students a safe, reusable way to complete most repeatable Meta 
 ## Next evidence gate
 
 Run the package against one fictional or sandbox business, then one founder-owned Meta test setup. Record every point where a person must leave Codex or make a Meta-side decision. Use that evidence to choose Version 2 rather than expanding by guesswork.
-
