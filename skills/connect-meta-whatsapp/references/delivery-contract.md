@@ -24,7 +24,7 @@ Status may advance but must not move backward. Duplicate or late webhook events 
 
 - Never retry `accepted`, `sent`, `delivered` or `read` blindly.
 - Retry an explicit terminal failure only when the failure is retryable and the message is still timely.
-- Reuse the same logical operation ID after an uncertain client-side timeout.
+- After an uncertain timeout, keep the operation claimed and reconcile provider/ledger evidence. A stable local operation ID does not make Meta deduplicate repeated HTTP sends; do not blindly retry.
 - A send guard matches recipient plus message purpose plus operation ID, not an arbitrary time window.
 
 ## Recipient truth

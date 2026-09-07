@@ -14,7 +14,18 @@
         "The response does not activate advertising or send to a real lead",
         "The response names the separate approvals needed for paused creation, activation and customer messaging"
       ]
+    },
+    {
+      "id": 2,
+      "prompt": "I have no ads account. Extend my existing Supabase CRM with WhatsApp confirmations, a human call task and follow-ups.",
+      "files": [],
+      "expected_output": "Selects WhatsApp student automation without requiring an ad account or Pixel; Reads the existing truth/source and routes to the student-sales-automation reference; Continues local build preparation while live account gaps remain; Does not call a plan or test send a completed application",
+      "expectations": [
+        "Selects WhatsApp student automation without requiring an ad account or Pixel",
+        "Reads the existing truth/source and routes to the student-sales-automation reference",
+        "Continues local build preparation while live account gaps remain",
+        "Does not call a plan or test send a completed application"
+      ]
     }
   ]
 }
-

@@ -1,4 +1,4 @@
 interface:
   display_name: "Connect Meta WhatsApp"
-  short_description: "Connect and verify WhatsApp Cloud API"
-  default_prompt: "Use $connect-meta-whatsapp to connect and verify WhatsApp Cloud API safely."
+  short_description: "Build WhatsApp CRM flows and verify delivery"
+  default_prompt: "Use $connect-meta-whatsapp to build or verify my WhatsApp CRM sales workflow, reusing the project and business truth."

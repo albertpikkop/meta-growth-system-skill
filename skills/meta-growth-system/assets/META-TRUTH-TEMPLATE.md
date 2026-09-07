@@ -20,7 +20,7 @@
 - Optimization event:
 - Why this event has enough trustworthy volume:
 
-## Meta Ads assets
+## Meta Ads assets (not applicable for WhatsApp-only builds)
 
 - Business portfolio ID:
 - Ad account ID:
@@ -36,11 +36,20 @@
 
 ## WhatsApp assets
 
+- Business portfolio ID:
+- App ID:
+- Token credential reference (never the value):
+- Credential owner/principal and expiry/revocation plan:
+- Test versus production assets:
+- Owner login/OTP/review/billing steps still pending:
+- Required permissions and asset access verified:
+
 - WABA ID:
 - Phone-number ID:
 - Display number ending:
 - Display-name status:
 - Quality rating:
+- Callback host and deployed function name:
 - Webhook URL:
 - Signature verification tested:
 - Approved template used for the first test:

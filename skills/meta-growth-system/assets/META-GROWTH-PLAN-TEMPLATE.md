@@ -20,7 +20,7 @@
 | Attended or sales conversation | CRM |  |  |
 | Paid or won | Payments or CRM |  |  |
 
-## Campaign plan
+## Campaign plan (omit when ads are not requested)
 
 - Campaign objective:
 - Optimization event:
@@ -57,3 +57,22 @@
 - What passed:
 - What remains unknown:
 - Rollback:
+
+## Student CRM automation (when requested)
+
+- Existing source, Supabase schema and operator UI:
+- Existing Resend hook owner; duplicate-send prevention:
+- Lead sources and permission before first WhatsApp:
+- Automated acknowledgement and separate human call task:
+- Qualification criteria and optional marketing choice:
+- Ready -> booking / not ready with permission -> nurture:
+- Utility event versus marketing purpose:
+- Follow-up timing, timezone, caps and durable job owner:
+- Reply, opt-out, booking, conversion and human-takeover suppression:
+- Booking availability, capacity, calendar provider and failure recovery:
+- Human sales outcome and evidence:
+- Owner bootstrap, token scopes and app/WABA asset assignments:
+- Read-only asset proof (separate from legacy helper ready flag):
+- Callback deployment, signature and durable persistence evidence:
+- Build / local tests / hosted test / live activation status:
+- Scenario test commands and redacted receipts:

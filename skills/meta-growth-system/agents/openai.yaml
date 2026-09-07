@@ -1,4 +1,4 @@
 interface:
   display_name: "Meta Growth System"
   short_description: "Plan, connect, and verify Meta growth safely"
-  default_prompt: "Use $meta-growth-system to plan and verify a Meta Ads and WhatsApp growth system."
+  default_prompt: "Use $meta-growth-system to build or verify my CRM and WhatsApp sales workflow, adding Meta Ads only when requested."

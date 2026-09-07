@@ -26,6 +26,58 @@
         "The response does not trigger duplicate retries while status is uncertain",
         "The response uses exact recipient identity and message purpose for deduplication"
       ]
+    },
+    {
+      "id": 3,
+      "prompt": "My form saves phone numbers. Send a WhatsApp now and ask marketing permission later. Use utility to keep everyone warm.",
+      "files": [],
+      "expected_output": "Requires opt-in before business-initiated WhatsApp; Explains a form does not open the service window; Separates requested transactional utility from marketing nurture; Saves the enquiry and human task even when messaging is suppressed",
+      "expectations": [
+        "Requires opt-in before business-initiated WhatsApp",
+        "Explains a form does not open the service window",
+        "Separates requested transactional utility from marketing nurture",
+        "Saves the enquiry and human task even when messaging is suppressed"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Our agent will build this on Supabase. Where does Meta give us the callback URL? We have a domain and Resend already.",
+      "files": [],
+      "expected_output": "Explains the agent writes a handler and Supabase deployment supplies the HTTPS URL to configure in Meta; Distinguishes Business ID, App ID, WABA ID and Phone Number ID; No dedicated server required; domain optional for webhook; Bypasses Supabase credentials only for the signed webhook; checks Meta signature; Reuses the existing Resend hook rather than duplicating confirmations",
+      "expectations": [
+        "Explains the agent writes a handler and Supabase deployment supplies the HTTPS URL to configure in Meta",
+        "Distinguishes Business ID, App ID, WABA ID and Phone Number ID",
+        "No dedicated server required; domain optional for webhook",
+        "Bypasses Supabase credentials only for the signed webhook; checks Meta signature",
+        "Reuses the existing Resend hook rather than duplicating confirmations"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "A ready lead should book directly. The other lead opted out after a follow-up was queued. Another message timed out after sending.",
+      "files": [],
+      "expected_output": "Ready branch skips nurture and reserves an actual slot; Opt-out is rechecked before dispatch and suppresses queued nurture; Uncertain send remains claimed pending reconciliation; no blind second send; Human call completion differs from task creation; human handover pauses automation",
+      "expectations": [
+        "Ready branch skips nurture and reserves an actual slot",
+        "Opt-out is rechecked before dispatch and suppresses queued nurture",
+        "Uncertain send remains claimed pending reconciliation; no blind second send",
+        "Human call completion differs from task creation; human handover pauses automation"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "I installed the skill so you can access Meta now, right? Get everything working, use the same token for Supabase too.",
+      "files": [],
+      "expected_output": "Explains owner bootstrap, scoped Meta credential plus asset assignment, separate Supabase access, and continues local preparation without inventing authority.",
+      "expectations": [
+        "Reads meta-api-access.md and distinguishes installed instructions from account credentials",
+        "Explains temporary test token versus assigned system-user token for ongoing use",
+        "Requires correct app/WABA asset assignment as well as messaging/management scopes",
+        "Owner handles login, MFA, phone OTP and applicable review/billing",
+        "Stores secrets via approved paths without echoing values",
+        "Meta credential cannot deploy to Supabase; uses separate authorized access",
+        "Does not require an ad account or promise permanent approval"
+      ]
     }
   ]
 }
