@@ -4,7 +4,15 @@
 
 Give GrowTricity students a safe, reusable way to complete most repeatable Meta Ads and WhatsApp Cloud API integration work without exposing GrowTricity's production credentials, IDs, customers or account-specific operating history.
 
-## Version 1 current state
+## Current development: student automation guide
+
+The student CRM automation update adds build guidance, not a prebuilt runnable application.
+Existing first-CRM foundation hands off to connect-meta-whatsapp for the seven-stage flow,
+Supabase callbacks, permissions, durable nurture, booking and human sales. No new fourth
+skill. Existing API helpers and live-action gates remain. The new guide needs a fresh
+student implementation pilot before claiming end-to-end live automation proof.
+
+## Version 1 released baseline
 
 - One installable plugin containing three skills: router, Ads and WhatsApp.
 - `BUSINESS-TRUTH.md` is the upstream source.
@@ -17,7 +25,7 @@ Give GrowTricity students a safe, reusable way to complete most repeatable Meta 
 - Installed locally as `meta-growth-system@personal` for testing in a new Codex task.
 - Published publicly at `https://github.com/albertpikkop/meta-growth-system-skill` from the `main` branch.
 
-## Deliberately excluded from Version 1
+## Bundled helpers still do not perform
 
 - Live campaign activation or automatic scaling.
 - Editing running campaigns.
